@@ -1,0 +1,88 @@
+.menu-all{
+    overflow: hidden;
+    .menu-head{
+        margin-top: 7%;
+        text-align: center;
+    }
+    .menu-head h6{
+        font-family: "Lato", sans-serif ;
+        color: #ef7a54;
+        font-weight: 750;
+        letter-spacing: 3px;
+    }
+    .menu-head h2{
+        margin-top: 2%;
+        font-family: "Sansita", sans-serif;
+        color: #055346;
+        font-size: 40px;
+    }
+    .menu-first{
+        display: flex;
+        padding-bottom: 3%;
+        flex-wrap: wrap;
+        // width:1250px;
+        margin-top: 5%;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .card{
+        background-color:#f9efe6cb ;
+        width: 18rem;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .card h5{
+        font-family: "Sansita", sans-serif;
+        color: #055346;
+    }
+    .card p{
+        font-family: "Lato", sans-serif ;
+    }
+
+    .card button{
+        border: none;
+        padding: 10px 30px;
+        font-size: 18px; 
+        font-weight: bold; 
+        cursor: pointer; 
+         color: white;
+        background-color: #055346;
+        font-family: "Sansita", sans-serif;
+         border-radius: 30px;
+         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    //   transition: background-color 0.3s ease;
+    }
+    .menu-second{
+        display: flex;
+        padding-bottom: 3%;
+        flex-wrap: wrap;
+        // width:1250px;
+        margin-top: 5%;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    @media (max-width:576px){
+        .menu-head{
+            margin-top: 16%;
+            text-align: center;
+        }
+        .menu-head h2{
+            font-size: 30px;
+        }
+        .menu-head h6{
+            font-size: 14px;
+        }
+        .card{
+            margin-top: 10%;
+            width: 100%;
+        }
+        .menu-first{
+            padding: 0px 20px 20px 20px;
+        }
+        .menu-second{
+            padding: 0px 20px 20px 20px;;
+        }
+    }
+}

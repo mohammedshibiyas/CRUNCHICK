@@ -1,0 +1,111 @@
+.about-all{
+    overflow: hidden;
+    .about{
+        background-color: #ebfffc;
+        height: auto;
+        padding-bottom: 5%;
+        
+    }
+    .about-head{
+        padding-top: 4%;
+        text-align: center;
+    }
+    .about-head h6{
+        font-family: "Lato", sans-serif ;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: #ef7a54;
+    }
+    .about-head h2{
+        font-family: "Sansita", sans-serif;
+        font-weight: 600;
+        margin-top: 2%;
+        font-size: 40px;
+        color: #055346;
+        font-style: normal;
+    }
+    .about-main{
+        display: flex;
+        // flex-direction: row;
+        width: 100%;
+        // margin-top: 5%;
+        flex-wrap: wrap;
+        // border:1px solid #055346;
+        // justify-content: center;
+        gap: 60px;
+    }
+    .about-img{
+        // border:1px solid #055346;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px 30px 40px !important;
+    }
+    .about-img img{
+        width: 100%;
+        // height: 70%;
+        border-top-left-radius: 48%;
+        border-top-right-radius: 48%;
+
+    }
+    .about-para{
+        width: 50%;
+        margin-left: 40px;
+        // border: 1px solid red;
+        height: auto;
+        padding-top: 8%;
+    }
+    .about-para h4{
+       
+        font-family: "Sansita", sans-serif;
+        color: #055346;
+        // font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .quote-name{
+        margin-top: 8%;
+    }
+    .quote-name h3,h6{
+        font-family: "Lato", sans-serif;
+        color: #055346;
+    }
+
+    @media (max-width:576px){
+        .about-head h6{
+            font-weight: 700;
+            color: #ef7a54;
+        }
+        .about-head h2{
+            font-size: 30px;
+        }
+        .about-img{
+            width: 100%;
+            padding: 15px 10px 30px 10px !important;
+            // padding: 20px;
+        }
+        .about-img img{
+            width: 100%;
+            // height: 70%;
+            border-top-left-radius: 48%;
+            border-top-right-radius: 48%;
+    
+        }
+        .about-para{
+            width: 100%;
+            padding: 10px;
+            margin-left: 0px;
+           
+        }
+        .about-para h4{
+            
+            font-weight: 550;
+            font-size: 25px;
+        }
+        .quote-name h3,h6{
+            font-size: 18px;
+        }
+
+    }
+}

@@ -1,0 +1,118 @@
+.booking-all{
+    overflow: hidden;
+    // background-color: #f9efe6;
+    height: auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    .booking{
+        padding-top: 3%;
+        text-align: center;
+    }
+    .booking-head{
+        text-align: center;
+        padding-top: 5%;
+    }
+    .booking-head h6{
+        font-family: "Lato", sans-serif ;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: #ef7a54;
+    }
+    .booking-head h2{
+        font-family: "Sansita", sans-serif;
+        font-weight: 600;
+        margin-top: 2%;
+        font-size: 40px;
+        color: #055346;
+        font-style: normal;
+    }
+    .booking-head p{
+        font-family: "Lato", sans-serif ;
+        color: gray;
+    }
+    .booking input,textarea{
+        background-color: transparent;
+        padding: 15px;
+        border-radius: 20px;
+        border:1px solid black;
+    }
+    .book-name input{
+        width: 460px;
+        
+    }
+    .book-contact{
+        display: flex;
+        justify-content: center;
+        gap:10px;
+        margin-top: 1.5%;
+    }
+    .reserve{
+        display: flex;
+        justify-content: center;
+        gap:10px;
+        margin-top: 1.5%;
+    }
+    .msg textarea{
+        width:460px;
+        margin-top: 1.5%;
+    }
+    .booking button{
+        margin-top: 2%;
+        color:white;
+        font-weight: 600;
+        font-size: 24px;
+        background-color: #ef7a54;
+        border: none;
+        font-family:"Sansita", sans-serif ;
+        border-radius: 25px;
+        padding: 10px 30px;
+    }
+    .booking button:hover{
+        background-color: white;
+        color: #ef7a54;
+        transition:.5s;
+        border: 1px solid #ef7a54;
+    
+    }
+    .booking input,textarea::placeholder{
+     font-family:  sans-serif;
+    }
+    @media (max-width:576px){
+        .booking-head h6{
+           font-size: 14px;
+        }
+        .booking-head h2{
+            font-family: "Sansita", sans-serif;
+            font-weight: 600;
+            margin-top: 2%;
+            font-size: 30px;
+            color: #055346;
+            font-style: normal;
+        }
+        .booking-head p{
+            font-size: small;
+
+        }
+        .booking input,textarea{
+            width: 100%;
+            margin-top: 3%;
+        }
+        .book-contact{
+            display: inline;
+        }
+        .reserve{
+            display: inline;  
+        }
+        .booking{
+            padding: 20px;
+        }
+        .msg textarea{
+            width:100%;
+            margin-top: 1.5%;
+        }
+        .booking button{
+            font-size: 18px;
+            margin-top: 3%;
+        }
+    }
+}

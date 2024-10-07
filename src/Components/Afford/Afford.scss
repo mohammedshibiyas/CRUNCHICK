@@ -1,0 +1,60 @@
+.afford-all{
+    overflow: hidden;
+
+    .location-icon{
+        background-color: #ef7a54;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .loc-icon{
+        color: #fff;
+        font-size: 50px;
+    }
+    .afford{
+        padding-top: 5%;
+        width: 100%;
+    }
+    .price{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .price h4{
+        font-family: "Sansita", sans-serif;
+        color: #055346;
+        font-weight: bold;
+        font-size: 28px;
+       
+    }
+   
+    .icon-label p{
+         margin-bottom: 0 !important;
+    }
+ 
+    @media (max-width:576px){
+        .price h4{
+            font-family: "Sansita", sans-serif;
+            color: #055346;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .icon-label{
+            display: flex;
+            padding-top: 5%;
+            gap: 7px;
+        }
+        .price{
+            width: 100%;
+            padding: 7%;
+            justify-content: left;
+        }
+       
+    }
+}

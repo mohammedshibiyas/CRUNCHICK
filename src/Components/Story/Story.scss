@@ -1,0 +1,201 @@
+.story-all{
+    overflow: hidden;
+    .story{
+        padding-top: 8%;
+        background-color: #ebfffc;
+        height: auto;
+        padding-bottom: 3%;
+        // text-align: center;
+    }
+    .mini-head{
+        text-align: center;
+    }
+    .mini-head h6{
+        font-family: "Lato", sans-serif ;
+        letter-spacing: 2px;
+        font-weight: 800;
+        color: #ef7a54;
+    }
+    .mini-head h2{
+        font-family: "Sansita", sans-serif;
+        font-weight: 600;
+        margin-top: 2%;
+        font-size: 40px;
+        color: #055346;
+        font-style: normal;
+    }
+    .story-para{
+        width: 100%;
+    }
+    .story-para p{
+       text-align: center;
+       margin-top: 2%;
+       font-size: 18px;
+       color: rgb(111, 107, 107);
+       font-family: "Lato", sans-serif ;
+    }
+    .gallery{
+        display: flex;
+        margin-top: 6%;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .left-side{
+        // width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .left-side img{
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    .middle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle img{
+        height: 80%;
+    }
+    .youtube{
+       border: 1px solid #055346;
+       background-color: #055346;
+       border-radius: 50%;
+       display: flex;
+       margin-top: 10%;
+       width: 200px;
+       height: 200px;
+       justify-content: center;
+       align-items: center; 
+       flex-direction: column;
+    }
+    .yt-icon{
+        color: #fff;
+        font-size: 55px;
+    }
+    .youtube p{
+        color: #fff;
+        font-family:"Sansita", sans-serif ;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .youtube h6{
+        color: #ef7a54;
+        font-family:"Sansita", sans-serif ;
+        font-size: 20px;
+
+    }
+    .right-side{
+        // width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .right-side img{
+        margin-top: 10%;
+    }
+    .instagram{
+        border: 1px solid #055346;
+       background-color: #055346;
+       border-radius: 50%;
+       display: flex;
+       width: 200px;
+       height: 200px;
+       justify-content: center;
+       align-items: center; 
+       flex-direction: column;
+    }
+    .insta-icon{
+        color: #fff;
+        font-size: 55px;
+    }
+    .instagram p{
+        color: #fff;
+        font-family:"Sansita", sans-serif ;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .instagram h6{
+        color: #ef7a54;
+        font-family:"Sansita", sans-serif ;
+        font-size: 20px;
+    }
+    @media (max-width:576px){
+        .story-para p{
+            text-align: center;
+            margin-top: 2%;
+            font-size: 13px;
+            width: 100%;
+           padding: 20px;
+         }
+         .mini-head h6{
+            font-size: small;
+         }
+         .mini-head h2{
+            font-size: 30px;
+         }
+         .left-side img{
+            height: auto;
+            padding: 15px;
+         }
+         .right-side img{
+            height: auto;
+            padding: 15px;
+         }
+    }
+    @media (min-width:576px) and (max-width:768px){
+        .story-para p{
+            text-align: center;
+            margin-top: 2%;
+            font-size: 13px;
+            width: 100%;
+           padding: 20px;
+         }
+         .left-side{
+            // width: 30%;
+            display: inline;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            text-align: center;
+        }
+         .mini-head h6{
+            font-size: small;
+         }
+         .mini-head h2{
+            font-size: 30px;
+         }
+         .left-side img{
+            height: 260px;
+            padding: 15px;
+         }
+         .right-side img{
+            height: auto;
+            padding: 15px;
+         }
+    }
+    @media (min-width:768px) and (max-width:991px){
+        .left-side{
+            width: 100%;
+            border: 1px solid red;
+            // display: inline;
+            // flex-direction: row;
+            // justify-content: start;
+            // align-items: center;
+            // text-align: center;
+        }
+        .gallery{
+            display: inline;
+            margin-top: 6%;
+            // flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

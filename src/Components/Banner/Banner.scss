@@ -1,0 +1,258 @@
+.banner-all{
+    overflow: hidden;
+    .banner{
+        background-color: #f9efe6;
+        height: 530px;
+        width: 100%;
+        // border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .labels{
+        // text-align: center;
+        margin-left: 3%;
+        padding-top: 5%;
+        padding-left: 2%;
+    }
+    .labels h1{
+        font-family: "Sansita", sans-serif;
+        font-weight: 600;
+        font-size: 65px;
+        color: #055346;
+        font-style: normal;
+    }
+    .banner-img{
+        text-align: center;
+        margin: auto;
+    }
+    .banner-img img{
+        width: 100%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius:5% ;
+        border-bottom-right-radius: 5%;
+        height: 400px;
+    }
+    .banner-btn{
+        padding-top: 2%;
+    }
+    .banner-btn button{
+        color:white;
+        font-weight: 600;
+        font-size: 24px;
+        background-color: #ef7a54;
+        border: none;
+        font-family:"Sansita", sans-serif ;
+        border-radius: 25px;
+        padding: 10px 30px;
+    }
+    .banner-btn button:hover{
+        background-color: white;
+        color: #ef7a54;
+        transition:.5s;
+        border: 1px solid #ef7a54;
+    }   
+
+    @media (max-width:576px){
+        .banner{
+            background-color: #f9efe6;
+            height: 750px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .labels{
+            margin-left: 0;
+        padding-top: 0;
+        padding-left: 0;
+           margin-top: 0%;
+            order: 2;
+        }
+        .labels h1{
+            font-family: "Sansita", sans-serif;
+            font-weight: 600;
+            font-size: 38px;
+            text-align: center;
+            color: #055346;
+            font-style: normal;
+        }
+        .banner-img{
+            text-align: center;
+            margin: auto;
+            order: 1;
+        }
+        .banner-img img{
+            width: 98%;
+            margin-top: 15%;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius:5% ;
+            border-bottom-right-radius: 5%;
+            height: 300px;
+        }
+        .banner-btn{
+            display: flex;
+            margin-top: 10%;
+            justify-content: center;
+        }
+        .banner-btn button{
+            color:white;
+            font-weight: 600;
+            font-size: 18px;
+            
+            background-color: #ef7a54;
+            border: none;
+            font-family:"Sansita", sans-serif ;
+            border-radius: 25px;
+            padding: 10px 30px;
+            align-items: center;
+        }
+    }
+    @media (min-width:576px) and (max-width:768px){
+        .banner{
+            background-color: #f9efe6;
+            height: auto;
+            padding:0px 6px 20px 0px;
+            // display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .labels{
+            margin-left: 0;
+        padding-top: 14%;
+        padding-left: 3%;
+           margin-top: 0%;
+            // order: 2;
+        }
+        .labels h1{
+            font-family: "Sansita", sans-serif;
+            font-weight: 600;
+            font-size: 35px;
+            text-align: center;
+            color: #055346;
+            font-style: normal;
+        }
+        .banner-img{
+            text-align: center;
+            margin: auto;
+            // order: 1;
+        }
+        .banner-img img{
+            width: 98%;
+            margin-top: 15%;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius:5% ;
+            border-bottom-right-radius: 5%;
+            height: 280px;
+        }
+        .banner-btn{
+            display: flex;
+            margin-top: 10%;
+            justify-content: center;
+        }
+        .banner-btn button{
+            color:white;
+            font-weight: 600;
+            font-size: 18px;
+            
+            background-color: #ef7a54;
+            border: none;
+            font-family:"Sansita", sans-serif ;
+            border-radius: 25px;
+            padding: 10px 30px;
+            align-items: center;
+        }
+    }
+    @media (min-width:768px) and (max-width:991px){
+        .banner{
+            background-color: #f9efe6;
+            height: auto;
+            padding:0px 6px 20px 0px;
+            // display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .labels{
+            margin-left: 0;
+        padding-top: 14%;
+        padding-left: 3%;
+           margin-top: 0%;
+            // order: 2;
+        }
+        .labels h1{
+            font-family: "Sansita", sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            text-align: center;
+        }
+        .banner-img{
+            text-align: center;
+            margin: auto;
+            // order: 1;
+        }
+        .banner-img img{
+            width: 98%;
+            margin-top: 15%;
+            height: 350px;
+        }
+        .banner-btn{
+            display: flex;
+            margin-top: 10%;
+            justify-content: center;
+        }
+        .banner-btn button{
+            font-size: 18px;
+            border-radius: 25px;
+            padding: 10px 30px;
+            align-items: center;
+        }
+    }
+    @media (min-width:991) and (max-width:1199px){
+        .banner{
+            background-color: #f9efe6;
+            height: auto;
+            padding:0px 6px 20px 0px;
+            // display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .labels{
+            margin-left: 0;
+        padding-top: 14%;
+        padding-left: 3%;
+           margin-top: 0%;
+            // order: 2;
+        }
+        .labels h1{
+            font-family: "Sansita", sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            text-align: center;
+        }
+        .banner-img{
+            text-align: center;
+            margin: auto;
+            // order: 1;
+        }
+        .banner-img img{
+            width: 98%;
+            margin-top: 15%;
+            height: 350px;
+        }
+        .banner-btn{
+            display: flex;
+            margin-top: 10%;
+            justify-content: center;
+        }
+        .banner-btn button{
+            font-size: 18px;
+            border-radius: 25px;
+            padding: 10px 30px;
+            align-items: center;
+        }
+    } 
+}
