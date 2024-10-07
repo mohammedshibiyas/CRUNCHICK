@@ -15,7 +15,7 @@ const Afford = () => {
     <div>
       <div className="afford-all">
         <div className=" row afford" >
-            <div className="col-lg-4 col-sm-12 price">
+            <div className="col-lg-4 col-sm-12 col-md-12 price">
             <div className="location-icon" data-aos='fade-up'>
          <MonetizationOnSharpIcon className='loc-icon'/>
          </div>  
@@ -24,7 +24,7 @@ const Afford = () => {
             <h4>Prices</h4> 
               </div> 
             </div>
-            <div className="col-lg-4 col-sm-12 price">
+            <div className="col-lg-4 col-sm-12 col-md-12 price">
             <div className="location-icon" data-aos='fade-up'>
          <ChairIcon className='loc-icon'/>
          </div>  
@@ -33,7 +33,7 @@ const Afford = () => {
             <h4>Atmosphere</h4> 
               </div>   
             </div>
-            <div className="col-lg-4 col-sm-12 price">
+            <div className="col-lg-4 col-sm-12 col-md-12 price">
             <div className="location-icon" data-aos='fade-up'>
          <MilitaryTechIcon className='loc-icon'/>
          </div>  

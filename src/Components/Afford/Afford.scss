@@ -57,4 +57,41 @@
         }
        
     }
+    @media (min-width:576px) and (max-width:768px){
+         .price h4{
+            font-family: "Sansita", sans-serif;
+            color: #055346;
+            font-weight: bold;
+            font-size: 28px;
+        }
+        .icon-label{
+            display: flex;
+            padding-top: 0%;
+            gap: 7px;
+        }
+        .price{
+            width: 100%;
+            padding: 7%;
+            justify-content: left;
+        }
+    }
+    @media (min-width:768px) and (max-width:991px){
+        .price h4{
+            font-family: "Sansita", sans-serif;
+            color: #055346;
+            font-weight: bold;
+            font-size: 31px;
+        }
+        .icon-label{
+            display: flex;
+            padding-top: 0%;
+            gap: 7px;
+        }
+        .price{
+            width: 100%;
+            padding: 7%;
+            justify-content: left;
+        }
+    }
+    
 }
