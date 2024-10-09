@@ -11,6 +11,9 @@
     .location{
       margin: auto;
     }
+    .location:hover{
+        transform: scale(1.09); /* Slightly enlarges the card */
+    }
     .location .location-icon{
         margin: auto;
     }

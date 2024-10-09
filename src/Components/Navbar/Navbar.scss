@@ -9,6 +9,7 @@
     }
     .navbars{
         width: 100%;
+        
         height: 80px;
         // border: 2px solid red;
         background-color: transparent;
@@ -20,10 +21,12 @@
     .nav-item a{
         font-family: "poppins";
         color: black;
+        transition: transform 0.5s ease;
     }
     .nav-item a:hover{
         color: red;
-        transition: .3s;
+        transform: scale(1.08); /* Slightly enlarges the card */
+        
     }
     .logo img{
         height: 60px;

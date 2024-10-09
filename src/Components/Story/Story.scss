@@ -72,7 +72,13 @@
        justify-content: center;
        align-items: center; 
        flex-direction: column;
+       cursor: pointer;
+       transition: transform 0.5s ease;
     }
+    .youtube:hover{
+        transform: scale(1.05);
+    }
+  
     .yt-icon{
         color: #fff;
         font-size: 55px;
@@ -110,6 +116,11 @@
        justify-content: center;
        align-items: center; 
        flex-direction: column;
+       cursor: pointer;
+       transition: transform 0.5s ease;
+    }
+    .instagram:hover{
+        transform: scale(1.05);
     }
     .insta-icon{
         color: #fff;
@@ -183,12 +194,17 @@
     @media (min-width:768px) and (max-width:991px){
         .left-side{
             width: 100%;
-            border: 1px solid red;
-            // display: inline;
-            // flex-direction: row;
+           
+            display:flex
+            ;
+            // flex-direction: column;
             // justify-content: start;
             // align-items: center;
             // text-align: center;
+        }
+        .middle {
+            padding: 40px;
+            height: 70%;
         }
         .gallery{
             display: inline;

@@ -29,8 +29,8 @@
         width: 100%;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
-        border-bottom-left-radius:5% ;
-        border-bottom-right-radius: 5%;
+        border-bottom-left-radius:2% ;
+        border-bottom-right-radius: 2%;
         height: 400px;
     }
     .banner-btn{
@@ -48,6 +48,7 @@
     }
     .banner-btn button:hover{
         background-color: white;
+        transform: scale(1.05); /* Slightly enlarges the card */
         color: #ef7a54;
         transition:.5s;
         border: 1px solid #ef7a54;

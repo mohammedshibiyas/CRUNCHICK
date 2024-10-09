@@ -40,6 +40,12 @@
         width: 460px;
         
     }
+    .booking input:focus{
+        border-color: #ef7a54;
+        border-width: 2px;
+        border-radius: 20px;
+        outline: none;
+    }
     .book-contact{
         display: flex;
         justify-content: center;

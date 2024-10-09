@@ -31,7 +31,13 @@
         border: none;
         border-radius: 30px;
         text-align: center;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
+    .card:hover {
+        transform: scale(1.05); 
+        // box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+      }
     .card h5{
         font-family: "Sansita", sans-serif;
         color: #055346;
@@ -39,6 +45,7 @@
     .card p{
         font-family: "Lato", sans-serif ;
     }
+   
 
     .card button{
         border: none;
@@ -117,5 +124,39 @@
             justify-content:space-around;
             align-items: center;
         }
+    }
+    @media (min-width:768px) and (max-width:991px){
+        .menu-head{
+            margin-top: 16%;
+            text-align: center;
+        }
+        .menu-head h2{
+            font-size: 30px;
+        }
+        .menu-head h6{
+            font-size: 14px;
+        }
+        .card{
+            margin-top: 10%;
+            width: 250px;
+        }
+        .menu-first{
+            padding:3%;
+        }
+        .menu-second{
+            padding: 3%;
+            padding-bottom: 3%;
+        }
+        .menu-first{
+            display: flex;
+            // flex-direction: column;
+            padding-bottom: 3%;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 5%;
+            justify-content:space-around;
+            align-items: center;
+        }
+ 
     }
 }
