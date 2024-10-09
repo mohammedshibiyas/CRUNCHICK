@@ -43,7 +43,7 @@ const Story = () => {
               <p>14K+</p>
               <h6>Follow</h6>
           </div>
-              <img src="./public/66e162d212c98e24c888bb76_Frame 214.avif" class="img-fluid"  alt="" data-aos="flip-left"  />
+              <img src="./66e162d212c98e24c888bb76_Frame 214.avif" class="img-fluid"  alt="" data-aos="flip-left"  />
             </div>
           </div>
           </div> 
