@@ -1,0 +1,17 @@
+.preloader{
+    .pre-image{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding-top: 18%;
+        justify-content: center;
+    }
+    .pre-image img{
+        height: 80px;
+    }
+    @media (max-width:576px) {
+        .pre-image{
+            padding-top: 80%;
+        }
+    }
+}

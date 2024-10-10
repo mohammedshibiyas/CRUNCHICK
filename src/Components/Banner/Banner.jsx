@@ -14,7 +14,7 @@ const Banner = () => {
     <div>
       <div className="banner-all">
       <div className=" banner">
-        <div className="labels" data-aos="fade-up">
+        <div className="labels" data-aos="fade-down">
           <h1>Crunchick :</h1>
           <h1>Culinary Delights</h1>
           <h1>On Town !</h1>
@@ -22,7 +22,7 @@ const Banner = () => {
            <a href="#book-table"> <button>Book Your Table</button></a>
           </div>
         </div>
-        <div className=" banner-img" data-aos="zoom-out">
+        <div className=" banner-img" data-aos="fade-up">
         <img src="./picture-chicken-wing-with-orange-sprinkles_794908-249.jpg" class="img-fluid" alt="..."/>
         </div>
       </div>

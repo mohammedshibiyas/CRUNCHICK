@@ -10,10 +10,27 @@ import Afford from './Components/Afford/Afford'
 // import Testimonial from './Components/Testimonial/Testimonial'
 import Booking from './Components/Booking/Booking'
 import Footer from './Components/Footer/Footer'
+import Testimonial from './Testimonial/Testimonial'
+import { useState } from 'react'
+import Preloader from './Components/Preloader/Preloader'
 
 function App() {
+
+  const[loading,setLoading]=useState(true);
+useState(()=>{
+  const timer=setTimeout(() => {
+    setLoading(false)
+  }, 2000);
+  return ()=> clearTimeout(timer)
+})
+
+  
   
   return (
+   <>
+   {loading ? (
+      <Preloader/>
+   ):(
     <>
     <Navbar/>
     <Banner/>
@@ -23,9 +40,13 @@ function App() {
     <About/>
     <Afford/>
     <Booking/>
+    <Testimonial/>
     <Footer/>
-    {/* <Testimonial/> */}
+   
     </>
+
+   )}
+   </>
   )
 }
 
